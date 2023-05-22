@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Consumindo API :: DAVI</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Filmes / Séris / Jogos</h1>
+      <form>
+        <input class="pesquisar" type="text" placeholder="Digite um filme/série/game" />
+        <select class="categoria" name="categoria">
+          <option selected>Selecione uma categoria</option>
+          <option value="movie">Filme</option>
+          <option value="series">Série</option>
+          <option value="game">Game</option>
+        </select>
+        <button class="submit">Pesquisar</button>
+      </form>
+      <div class="lista"></div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
